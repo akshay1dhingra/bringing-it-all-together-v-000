@@ -31,7 +31,7 @@ class Dog
     id = row[0]
     name = [1]
     breed = [2]
-    Dog.new(id, name, breed)
+    Dog.new(id: id, name: name, breed: breed)
   end
 
   def save
